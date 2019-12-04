@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="162e6adf-24ac-40fa-bfad-2d263f4aeb79" name="Default" comment="" />
+    <list default="true" id="162e6adf-24ac-40fa-bfad-2d263f4aeb79" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/동적 프로그램/1003.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,11 +26,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1463.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="1463.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/동적 프로그램/1463.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1003.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/동적 프로그램/1003.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/그리드/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="210">
+                <caret line="14" column="21" selection-start-line="14" selection-end-line="15" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -59,6 +83,8 @@
         <option value="$PROJECT_DIR$/그리드/1946.py" />
         <option value="$PROJECT_DIR$/DFS&amp;BFS/1260.py" />
         <option value="$PROJECT_DIR$/동적 프로그램/1463.py" />
+        <option value="$PROJECT_DIR$/동적 프로그램/README.md" />
+        <option value="$PROJECT_DIR$/동적 프로그램/1003.py" />
       </list>
     </option>
   </component>
@@ -87,6 +113,11 @@
             <path>
               <item name="grid" type="b2602c69:ProjectViewProjectNode" />
               <item name="grid" type="462c0819:PsiDirectoryNode" />
+              <item name="그리드" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grid" type="462c0819:PsiDirectoryNode" />
               <item name="동적 프로그램" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -97,10 +128,11 @@
     </panes>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/그리드" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/동적 프로그램" />
       <recent name="$PROJECT_DIR$/그리드" />
     </key>
   </component>
@@ -116,7 +148,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1260">
+  <component name="RunManager" selected="Python.1003">
+    <configuration name="1003" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="grid" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/동적 프로그램" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/동적 프로그램/1003.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="10610" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="grid" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -194,9 +244,11 @@
       <item itemvalue="Python.10610" />
       <item itemvalue="Python.1946" />
       <item itemvalue="Python.1260" />
+      <item itemvalue="Python.1003" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1003" />
         <item itemvalue="Python.1260" />
         <item itemvalue="Python.1946" />
         <item itemvalue="Python.10610" />
@@ -219,15 +271,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49909583" visible="true" weight="0.24947146" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32969698" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32969698" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32969698" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32969698" />
       <window_info id="Favorites" order="2" sideWeight="0.50090414" side_tool="true" weight="0.24947146" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -268,14 +321,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/그리드/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -324,10 +369,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/그리드/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="210">
+            <caret line="14" column="21" selection-start-line="14" selection-end-line="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/동적 프로그램/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="45">
+            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/동적 프로그램/1463.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/동적 프로그램/1003.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
         </state>
       </provider>
     </entry>
