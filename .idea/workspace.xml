@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="162e6adf-24ac-40fa-bfad-2d263f4aeb79" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/그리드/1946.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFS&amp;BFS/1260.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,38 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="1120.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/그리드/1120.py">
+      <file leaf-file-name="1260.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DFS&amp;BFS/1260.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2875.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/그리드/2875.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="10610.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/그리드/10610.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1946.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/그리드/1946.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            <state relative-caret-position="225">
+              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -78,6 +51,7 @@
         <option value="$PROJECT_DIR$/그리드/2875.py" />
         <option value="$PROJECT_DIR$/그리드/10610.py" />
         <option value="$PROJECT_DIR$/그리드/1946.py" />
+        <option value="$PROJECT_DIR$/DFS&amp;BFS/1260.py" />
       </list>
     </option>
   </component>
@@ -101,7 +75,7 @@
             <path>
               <item name="grid" type="b2602c69:ProjectViewProjectNode" />
               <item name="grid" type="462c0819:PsiDirectoryNode" />
-              <item name="그리드" type="462c0819:PsiDirectoryNode" />
+              <item name="DFS&amp;BFS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -130,7 +104,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1946">
+  <component name="RunManager" selected="Python.1260">
     <configuration name="10610" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="grid" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,6 +118,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/그리드/10610.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="1260" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="grid" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DFS&amp;BFS" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DFS&amp;BFS/1260.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,9 +181,11 @@
       <item itemvalue="Python.2875" />
       <item itemvalue="Python.10610" />
       <item itemvalue="Python.1946" />
+      <item itemvalue="Python.1260" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1260" />
         <item itemvalue="Python.1946" />
         <item itemvalue="Python.10610" />
         <item itemvalue="Python.2875" />
@@ -304,8 +298,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/그리드/1946.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        <state relative-caret-position="435">
+          <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DFS&amp;BFS/1260.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
